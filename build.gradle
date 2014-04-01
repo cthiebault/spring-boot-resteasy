@@ -1,0 +1,19 @@
+buildscript {
+  repositories { mavenCentral() }
+  dependencies {
+    classpath("org.springframework.boot:spring-boot-gradle-plugin:1.0.0.RELEASE")
+  }
+}
+
+apply plugin: 'java'
+apply plugin: 'spring-boot'
+
+repositories { mavenCentral() }
+
+dependencies {
+  compile("org.springframework.boot:spring-boot-starter-web")
+  compile("org.jboss.resteasy:resteasy-jaxrs:3.0.7.Final")
+  compile("org.jboss.resteasy:resteasy-spring:3.0.7.Final")
+
+  testCompile("org.springframework.boot:spring-boot-starter-test")
+}
