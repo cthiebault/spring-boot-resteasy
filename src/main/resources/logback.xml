@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<configuration scan="true">
+
+  <logger name="org.jboss.resteasy" level="debug"/>
+
+  <appender name="console" class="ch.qos.logback.core.ConsoleAppender">
+    <encoder>
+      <charset>utf-8</charset>
+      <Pattern>%date [%thread] %-5level %logger - %message%n</Pattern>
+    </encoder>
+  </appender>
+
+  <root level="info">
+    <appender-ref ref="console"/>
+  </root>
+
+</configuration>
