@@ -4,7 +4,7 @@ import org.springframework.boot.autoconfigure.EnableAutoConfiguration;
 import org.springframework.boot.builder.SpringApplicationBuilder;
 import org.springframework.context.annotation.ComponentScan;
 
-@ComponentScan
+@ComponentScan("com.github.cthiebault")
 @EnableAutoConfiguration
 public class Application {
 

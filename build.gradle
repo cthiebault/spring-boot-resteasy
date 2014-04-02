@@ -12,8 +12,8 @@ repositories { mavenCentral() }
 
 dependencies {
   compile("org.springframework.boot:spring-boot-starter-web")
-  compile("org.jboss.resteasy:resteasy-jaxrs:3.0.7.Final")
-  compile("org.jboss.resteasy:resteasy-spring:3.0.7.Final")
+//  compile("org.jboss.resteasy:resteasy-jaxrs:3.0.7.Final")
+//  compile("org.jboss.resteasy:resteasy-spring:3.0.7.Final")
 
   testCompile("org.springframework.boot:spring-boot-starter-test")
 }

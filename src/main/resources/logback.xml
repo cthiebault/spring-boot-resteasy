@@ -3,6 +3,7 @@
 <configuration scan="true">
 
   <logger name="org.jboss.resteasy" level="debug"/>
+  <logger name="org.springframework" level="debug"/>
 
   <appender name="console" class="ch.qos.logback.core.ConsoleAppender">
     <encoder>
